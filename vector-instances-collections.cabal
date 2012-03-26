@@ -7,7 +7,7 @@ Name:                vector-instances-collections
 -- The package version. See the Haskell package versioning policy
 -- (http://www.haskell.org/haskellwiki/Package_versioning_policy) for
 -- standards guiding when and how versions should be incremented.
-Version:             0.1
+Version:             0.1.0.1
 
 -- A short (one-line) description of the package.
 Synopsis:            Instances of the Data.Collections classes for Data.Vector.*
@@ -57,7 +57,7 @@ Library
       template-haskell == 2.7.*
   
   -- Modules not exported by this package.
-  -- Other-modules:       
+  Other-modules: Data.Vector.Instances.Collections.Internal
   
   -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
   -- Build-tools:         
